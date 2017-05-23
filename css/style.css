@@ -51,6 +51,13 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
+@media (min-width: 768px) {
+  .badge {
+    display: inline-block;
+    margin-top: 200px;
+    vertical-align: middle;
+  }
+
 a {
 	color: #cccccc;
 	text-decoration: none;
@@ -332,6 +339,16 @@ color:#ccc !important;
 }
 
 .well-come {
+	position:relative;
+	font-size: 50px;
+	line-height: 62px;
+	margin-bottom: 48px;
+	color:#fff !important;
+	font-weight: 700;
+	text-transform:uppercase;
+}
+
+.well-come-a {
 	position:relative;
 	font-size: 50px;
 	line-height: 62px;
